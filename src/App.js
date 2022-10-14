@@ -37,7 +37,7 @@ class Otpinput extends React.Component {
 			}
 		}
 	}
-	
+
 	render() {
 		return (
 			<>
@@ -104,7 +104,6 @@ class Otpinput extends React.Component {
 							/>
 
 						<button className="getotp" onClick={() =>(this.state.value) }>Get OTP</button>
-
 					</div>
 				</form>
 				<button className="delete" >Clear</button>
